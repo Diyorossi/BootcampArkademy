@@ -1,0 +1,40 @@
+.rectangle{
+	position: absolute;
+width: 1365px;
+height: 95px;
+left: 0px;
+top: 0px;
+background: #FFFEFE;
+box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+	}
+
+.search-rectangle{
+position: absolute;
+width: 830px;
+height: 48px;
+left: 256px;
+top: 25px;
+
+background: #CECECE;
+border-radius: 10px;
+	}
+
+.search{
+	position: absolute;
+width: 310px;
+height: 42px;
+left: 258px;
+top: 33px;
+
+font-family: Airbnb Cereal App;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+
+.table-shadow{
+	box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
