@@ -53,11 +53,12 @@
           <td>Rp. <?= number_format($p->price);  ?></td>
           <td><a href="#editcashier" onclick="confirm_modal_editcashier(
           	'<?= $p->id_product;  ?>',
-          	'<?= $p->cashier;  ?>',
-          	'<?= $p->category;  ?>',
+          	'<?= $p->id_cashier;  ?>',
+          	'<?= $p->id_category;  ?>',
           	'<?= $p->product;  ?>',
           	'<?= $p->price;  ?>'
           )" ><i style="color:rgb(171,217,133);" class="pr-2 fas fa-edit"></i></a> 
+          <!-- <a href="<?= base_url('product/edit/');  ?><?= $p->id_product;  ?>"><i style="color:rgb(171,217,133);" class="pr-2 fas fa-edit"></i></a>  -->
               <a href="<?= base_url('product/hapusproduk/');  ?><?= $p->id_product;  ?>" class="tombol-hapuscashier"><i style="color:rgb(255,14,72);" class="fas fa-trash-alt"></i></a>
           </td>
         </tr>
@@ -124,21 +125,22 @@
             <form action="<?= base_url();  ?>product/ubahproduk" method="post">
               <input hidden id="idprodukedit" name="idprodukedit">
               <div class="form-group">
-              <input type="text" class="form-control" name="cashieredit" id="cashieredit">
-          	  <!-- <select class="form-control form-control-user" name="cashieredit" id="cashieredit">
-              <option disabled selected value>-- Cashier Name --</option>
-               <option value="Pevita Pearce">Pevita Pearce</option>
-               <option value="Raisa Andrianab">Raisa Andrianab</option>
-               <option value="Denlei Diyorossi">Denlei Diyorossi</option>
-          	  </select>  -->
+              <!-- <input type="text" class="form-control" name="cashieredit" id="cashieredit"> -->
+          	  <select class="form-control form-control-user" name="cashieredit" id="cashieredit">
+              <option selected value>-- Cashier Name --</option>
+              <?php foreach ($cashier as $cashier): ?>
+               <option value="<?= $cashier->id_cashier;  ?>"><?= $cashier->name;  ?></option>
+              <?php endforeach ?>
+          	  </select> 
               </div>
               <div class="form-group">
-              <input type="text" class="form-control" name="categoryedit" id="categoryedit">
-          	 <!--  <select class="form-control form-control-user" name="categoryedit" id="categoryedit" placeholder="Category">
+              <!-- <input type="text" class="form-control" name="categoryedit" id="categoryedit"> -->
+          	  <select class="form-control form-control-user" name="categoryedit" id="categoryedit" placeholder="Category">
               <option disabled selected value>-- Category --</option>
-              <option value="Food">Food</option>
-              <option value="Drink">Drink</option>
-          	  </select>  -->
+              <?php foreach ($category as $category): ?>
+              <option value="<?= $category->id_category; ?>"><?= $category->name;  ?></option>
+              <?php endforeach ?>
+          	  </select> 
               </div>
               <div class="form-group">
                 <input type="text" class="form-control" name="productedit" id="productedit">

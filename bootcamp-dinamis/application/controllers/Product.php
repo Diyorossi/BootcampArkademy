@@ -28,13 +28,39 @@ class Product extends CI_Controller {
 
 	public function ubahproduk(){
 		$idproduk = $this->input->post('idprodukedit');
-		// var_dump($idproduk); die;
-		// $idkasir = $this->input->post('cashieredit');
-		// $kategori = $this->input->post('categoryedit');
+		$idkasir = $this->input->post('cashieredit');
+		$kategori = $this->input->post('categoryedit');
 		$produk = $this->input->post('productedit');
-		$harga = $this->input->post('priceedit');
-		$this->Product_model->updateProduct($idproduk, $produk, $harga);
+		$harga= $this->input->post('priceedit');
+		// var_dump($idproduk, $produk, $harga, $kategori, $idkasir); die;
+		$this->Product_model->updateProduct($idproduk, $produk, $harga, $kategori, $idkasir);
 		$this->session->set_flashdata('flash', 'DiUbah');
+		redirect('Home');
+	}
+
+	public function edit($idproduk){
+		$kasir = $this->input->post('cashieredit');
+		$kategori = $this->input->post('categoryedit');
+		$produk = $this->input->post('productedit');
+		$harga= $this->input->post('priceedit');
+
+		$data['allproduct'] = $this->Product_model->getProduct();
+		// $data['product'] = $this->Product_model->getProductId($idproduk);
+		$data['product'] = $this->Product_model->getProductIdJoin($idproduk);
+		$data['cashier'] = $this->Cashier_model->getCashier();
+		$data['category'] = $this->Category_model->getCategory();
+		// var_dump($data['allproduct']); die;
+		$this->load->view('home/edit', $data);
+	}
+
+	public function update(){
+		$idproduk = $this->input->post('idproductedit');
+		$idkasir = $this->input->post('cashieredit');
+		$kategori = $this->input->post('categoryedit');
+		$produk = $this->input->post('productedit');
+		$harga= $this->input->post('priceedit');
+		// var_dump($idproduk, $produk, $harga, $kategori, $idkasir); die;
+		$this->Product_model->updateProduct($idproduk, $produk, $harga, $kategori, $idkasir);
 		redirect('Home');
 	}
 	

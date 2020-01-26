@@ -17,33 +17,43 @@
   <!-- NAVBAR -->
   <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top rectangle">
     <div class="container">
-      <a class="navbar-brand" href=""><img src="<?= base_url();  ?>assets/img/logo.png" style="margin-left: -90px;"></a>
+      <a class="navbar-brand" href="<?=base_url('home');  ?>"><img src="<?= base_url();  ?>assets/img/logo.png" style="margin-left: -90px;"></a>
       <form >
         <input type="search" class="search-rectangle" placeholder="Search ...">
       </form>
       <button class="nav-link btn text-white pr-5 pl-5" data-toggle="modal" data-target="#tambahcashier" style="background-color: #FADC9C; margin-right:-80px; ">ADD</button>
     </div>
   </nav>
-
 <div id="flash-data-tambahcashier" data-flashdata="<?= $this->session->flashdata('flash');  ?>"></div>
 <!-- FORM EDIT -->
 <div class="row pt-5 mt-5 justify-content-center">
   <div class="col-md-4 mt-5">
   <h3>EDIT</h3><hr>
-  <form>
+  <form action="<?= base_url('product/update/');  ?><?= $product->id_product;  ?>" method="post">
+    <input type="hidden" name="idproductedit" value="<?= $product->id_product;  ?>">
     <div class="form-group">
-      <input type="text" class="form-control" placeholder="Cashier Name">
+      <select class="form-control form-control-user" name="cashieredit" id="cashieredit">
+      <option selected value="<?= $product->id_cashier;  ?>"><?= $product->cashier;  ?></option>
+      <?php foreach ($cashier as $cashier): ?>
+        <option value="<?= $cashier->id_cashier;  ?>"><?= $cashier->name;  ?></option>
+      <?php endforeach ?>
+      </select> 
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" placeholder="Product Name">
+       <select class="form-control form-control-user" name="categoryedit" id="categoryedit" placeholder="Category">
+      <option selected value="<?= $product->id_category;  ?>"><?= $product->category;  ?></option>
+       <?php foreach ($category as $category): ?>
+      <option value="<?= $category->id_category;  ?>"><?= $category->name;  ?></option>
+      <?php endforeach ?>
+      </select> 
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" placeholder="Category">
+      <input type="text" class="form-control" name="productedit" value="<?= $product->product;  ?>">
     </div>
     <div class="form-group">
-      <input type="text" class="form-control" placeholder="Price">
+      <input type="text" class="form-control" name="priceedit" value="<?= $product->price;  ?>">
     </div>
-    <button class="btn text-white pr-5 pl-5" style="background-color: #FF8FB2;">EDIT</button>
+    <button name="submit" type="submit" class="btn text-white pr-5 pl-5" style="background-color: #FADC9C;">EDIT</button>
   </form>
   </div>
 </div>
