@@ -9,3 +9,8 @@ Soal 6b terdapat pada folder bootcamp-statis
 Soal 6c terdapat pada folder bootcamp-dinamis disini saya menggunakan Framework CodeIgniter 3 dan Bootstrap 4 CDN.
 
 Berikut ini langkah dalam menjalankan file :
+
+1. Buka folder bootcamp-dinamis
+2. Jalankan sistem menggunakan xampp
+3. Maka akan tampil halaman utama (home) seperti gambar di bawah :
+
