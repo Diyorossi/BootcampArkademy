@@ -14,3 +14,4 @@ Berikut ini langkah dalam menjalankan file :
 2. Jalankan sistem menggunakan xampp
 3. Maka akan tampil halaman utama (home) seperti gambar di bawah :
 
+![image](https://user-images.githubusercontent.com/17777914/73129319-5900c380-4013-11ea-8a36-7dc03f49f52e.png)
