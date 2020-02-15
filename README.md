@@ -1,6 +1,6 @@
 --> Soal 1, dan 2 Menggunakan PHP 
 
---> SOAL 6.A Query Untuk Menampilkan sesuai soal adalah :
+--> <b>SOAL 6.A</b> Query Untuk Menampilkan sesuai soal adalah :
 
 SELECT c.name as cashier, p.name as product, g.name as category, p.price as price FROM product p join cashier c on p.id_cashier=c.id_cashier join category g on p.id_category=g.id_category
 
@@ -8,7 +8,7 @@ Screenshot Hasil :
 
 ![image](https://user-images.githubusercontent.com/17777914/74580409-9800b400-4fd6-11ea-8afc-d1427150097d.png)
 
---> SOAL 6.B terdapat pada folder bootcamp-statis :
+--> <b>SOAL 6.B</b> terdapat pada folder bootcamp-statis :
 
 Pada bagian ini merupakan tampilan halaman statik yang di buat berdasarkan acuan mockup dari figma menggunakan html, css, js serta framework Bootstrap 4 CDN.
 
@@ -34,7 +34,7 @@ Modal Edit tampilan statis :
 Modal Hapus tampilan statis :
 ![image](https://user-images.githubusercontent.com/17777914/74580740-05faaa80-4fda-11ea-8eac-d8d2614aabb7.png)
 
---> SOAL 6.C terdapat pada folder bootcamp-dinamis.
+--> <b>SOAL 6.C</b> terdapat pada folder bootcamp-dinamis.
 
 Pada bagian ini merupakan tampilan halaman dinamis yang di buat berdasarkan acuan mockup dari figma yang sebelumnya telah di buat pada point 6.B (tampilan-statis) dengan menggunakan Framework CodeIgniter 3 dan Bootstrap 4 CDN.
 
@@ -42,12 +42,14 @@ Adapun software yang di butuhkan untuk menjalankan sistem :
 
 1. Server Xampp
 2. Browser (Opsional)
+3. DBMS MySQL
 
 Berikut ini langkah dalam menjalankan file :
 
 1. Buka folder bootcamp-dinamis
-2. Jalankan sistem menggunakan server xampp
-3. Selesai
+2. Import sql database kedalam MySql bernama bootcamp_arkademy yang berada pada folder database
+3. Jalankan sistem menggunakan server xampp
+4. Selesai
 
 Maka halaman akan tampil sesuai dengan gambar dari hasil Screenshot seperti di bawah ini :
 
