@@ -51,25 +51,26 @@ Berikut ini langkah dalam menjalankan file :
 
 Maka halaman akan tampil sesuai dengan gambar dari hasil Screenshot seperti di bawah ini :
 
-![image](https://user-images.githubusercontent.com/17777914/73129319-5900c380-4013-11ea-8a36-7dc03f49f52e.png)
+Halaman utama dinamis :
+![image](https://user-images.githubusercontent.com/17777914/74581013-e0bb6b80-4fdc-11ea-81d2-8c81f20d8be6.png)
 
-Halaman ketika melakukan penambahan data :
-![image](https://user-images.githubusercontent.com/17777914/73129330-92393380-4013-11ea-9613-6709eab0b460.png)
+Halaman ketika melakukan penambahan data dinamis :
+![image](https://user-images.githubusercontent.com/17777914/74581030-1ceecc00-4fdd-11ea-9c91-03ce3ae5fa1d.png)
 
-Halaman ketika berhasil melakukan penambahan data :
-![image](https://user-images.githubusercontent.com/17777914/73129338-d3314800-4013-11ea-8ce2-1379c6689af2.png)
-![image](https://user-images.githubusercontent.com/17777914/73129341-e512eb00-4013-11ea-9e5b-2baac3fcec21.png)
+Halaman ketika berhasil melakukan penambahan data dinamis :
+![image](https://user-images.githubusercontent.com/17777914/74581041-3ee84e80-4fdd-11ea-8065-fe7396857104.png)
+![image](https://user-images.githubusercontent.com/17777914/74581050-56273c00-4fdd-11ea-9281-4c896349818b.png)
 
-Halaman ketika melakukan ubah data :
-![image](https://user-images.githubusercontent.com/17777914/73129345-0673d700-4014-11ea-9d02-e0d9e559609a.png)
+Halaman ketika melakukan ubah data dinamis :
+![image](https://user-images.githubusercontent.com/17777914/74581090-cfbf2a00-4fdd-11ea-8854-3689d9f909b8.png)
 
-Halaman ketika berhasil melakukan perubahan data :
-![image](https://user-images.githubusercontent.com/17777914/73129351-1b506a80-4014-11ea-8841-214be665cdec.png)
-![image](https://user-images.githubusercontent.com/17777914/73129354-328f5800-4014-11ea-9bac-dfd63cd7861e.png)
+Halaman ketika berhasil melakukan perubahan data dinamis :
+![image](https://user-images.githubusercontent.com/17777914/74581096-e49bbd80-4fdd-11ea-8798-205d9e01477a.png)
+![image](https://user-images.githubusercontent.com/17777914/74581102-f8dfba80-4fdd-11ea-9df5-fb8d438b962e.png)
 
-Halaman ketika melakukan hapus data :
-![image](https://user-images.githubusercontent.com/17777914/73129360-4935af00-4014-11ea-93cb-b1c043439a0f.png)
+Halaman ketika melakukan hapus data dinamis :
+![image](https://user-images.githubusercontent.com/17777914/74581109-0f861180-4fde-11ea-8044-c964f0af6303.png)
 
-Halaman ketika berhasil melakukan hapus data :
-![image](https://user-images.githubusercontent.com/17777914/73129361-581c6180-4014-11ea-972b-7454a764a462.png)
-![image](https://user-images.githubusercontent.com/17777914/73129364-6f5b4f00-4014-11ea-986d-755e074bcc61.png)
+Halaman ketika berhasil melakukan hapus data dinamis :
+![image](https://user-images.githubusercontent.com/17777914/74581117-2593d200-4fde-11ea-8c96-a5293b3c6fa0.png)
+![image](https://user-images.githubusercontent.com/17777914/74581120-3a706580-4fde-11ea-9bcf-0ed8de1505f2.png)
