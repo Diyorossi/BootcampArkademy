@@ -15,7 +15,6 @@
      }
 
      function password($password){
-     	// if (!preg_match('/^[a-z0-9_.!@#$%]{8}$/', $password)){
         if (!preg_match('/^(?=.*?[a-z])(?=.*?[A-Z])(?=.*[0-9].*[0-9].*[0-9])(?=.*?[#?!@$%^&*-]).{8,}/', $password)){
     		echo 'False';
    		 }
