@@ -1,7 +1,7 @@
 <?php 		
 
 $karakter = 'Javascript'; 
-$jml_karakter = 'a';
+$jml_karakter = 'x';
 
 function CountChar($karakter, $jml_karakter){
 $count = 0;
