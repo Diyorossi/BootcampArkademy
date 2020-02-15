@@ -10,6 +10,14 @@ Pada bagian ini menggunakan bahasa PHP dengan menjalankan file 2.php melalui bro
 
 Pada bagian ini menggunakan bahasa PHP dengan menjalankan file 3.php melalui browser
 
+-- > <b>SOAL 4</b> 
+
+Pada bagian ini menggunakan bahasa PHP dengan menjalankan file 4.php melalui browser
+
+-- > <b>SOAL 5</b> 
+
+Pada bagian ini menggunakan bahasa PHP dengan menjalankan file 5.php melalui browser
+
 --> <b>SOAL 6.A</b> Query Untuk Menampilkan sesuai soal adalah :
 
 SELECT c.name as cashier, p.name as product, g.name as category, p.price as price FROM product p join cashier c on p.id_cashier=c.id_cashier join category g on p.id_category=g.id_category
