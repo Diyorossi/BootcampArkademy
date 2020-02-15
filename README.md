@@ -1,6 +1,10 @@
---> <b>SOAL 1</b>, <b>SOAL 2</b>, <b>SOAL 3</b>, <b>SOAL 4</b>, <b>SOAL 5</b> 
+--> <b>SOAL 1</b>, <b>SOAL 2</b>, <b>SOAL 3</b>, dan <b>SOAL 4</b> :
 
-Pada bagian ini menggunakan bahasa PHP dengan menjalankan file 1.php melalui browser
+Pada bagian soal ini menggunakan bahasa pemrograman PHP dengan menjalankan file 1.php, file 2.php, file 3.php, dan file 4.php melalui browser atau menggunakan online editor https://www.onlinegdb.com/
+
+-- > <b>SOAL 5</b> :
+
+Pada bagian soal ini menggunakan bahasa pemrograman JavaScript dengan menjalankan file 5.js melalui browser console atau menggunakan online editor https://es6console.com/
 
 --> <b>SOAL 6.A</b> Query Untuk Menampilkan sesuai soal adalah :
 
