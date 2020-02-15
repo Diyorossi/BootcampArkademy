@@ -1,6 +1,6 @@
 Soal 1, dan 2 Menggunakan PHP 
 
-Soal 6a Query Untuk Menampilkan sesuai soal adalah :
+-- Soal 6a Query Untuk Menampilkan sesuai soal adalah :
 
 SELECT c.name as cashier, p.name as product, g.name as category, p.price as price FROM product p join cashier c on p.id_cashier=c.id_cashier join category g on p.id_category=g.id_category
 
@@ -8,13 +8,24 @@ Screenshot Hasil :
 
 ![image](https://user-images.githubusercontent.com/17777914/74580409-9800b400-4fd6-11ea-8afc-d1427150097d.png)
 
-Soal 6b terdapat pada folder bootcamp-statis :
+-- Soal 6b terdapat pada folder bootcamp-statis :
 Pada bagian ini merupakan tampilan halaman statik yang di buat berdasarkan acuan mockup dari figma. Yang dibuat menggunakan html, css, js serta framework Bootstrap 4 CDN.
 Cara menjalankannya yaitu buka file index.html pada folder bootcamp-statis
-
 Hasil Screenshot tampilan :
 
-Soal 6c terdapat pada folder bootcamp-dinamis disini saya menggunakan Framework CodeIgniter 3 dan Bootstrap 4 CDN.
+Halaman Utama  tampilan statis :
+![image](https://user-images.githubusercontent.com/17777914/74580700-a4d2d700-4fd9-11ea-94c1-96a0ff6fff91.png)
+
+Modal Tambah tampilan statis :
+![image](https://user-images.githubusercontent.com/17777914/74580721-d8adfc80-4fd9-11ea-95a3-4451b969ee7a.png)
+
+Modal Edit tampilan statis :
+![image](https://user-images.githubusercontent.com/17777914/74580731-f2e7da80-4fd9-11ea-9c90-ecd45fffdd3b.png)
+
+Modal Hapus tampilan statis :
+![image](https://user-images.githubusercontent.com/17777914/74580740-05faaa80-4fda-11ea-8eac-d8d2614aabb7.png)
+
+-- Soal 6c terdapat pada folder bootcamp-dinamis disini saya menggunakan Framework CodeIgniter 3 dan Bootstrap 4 CDN.
 
 Berikut ini langkah dalam menjalankan file :
 
