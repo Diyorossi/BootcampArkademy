@@ -15,8 +15,7 @@ Pada bagian ini merupakan tampilan halaman statik yang di buat berdasarkan acuan
 Berikut ini langkah dalam menjalankan file :
 1. Buka file index.html pada folder bootcamp-statis.
 
-Maka halaman akan tampil sesuai dengan gambar di bawah ini.
-Hasil Screenshot tampilan :
+Maka halaman akan tampil sesuai dengan gambar hasil Screenshot seperti di bawah ini :
 
 Halaman Utama  tampilan statis :
 ![image](https://user-images.githubusercontent.com/17777914/74580700-a4d2d700-4fd9-11ea-94c1-96a0ff6fff91.png)
