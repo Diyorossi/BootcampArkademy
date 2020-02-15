@@ -10,8 +10,11 @@ Screenshot Hasil :
 
 --> Soal 6b terdapat pada folder bootcamp-statis :
 
-Pada bagian ini merupakan tampilan halaman statik yang di buat berdasarkan acuan mockup dari figma. Yang dibuat menggunakan html, css, js serta framework Bootstrap 4 CDN.
-Cara menjalankannya yaitu buka file index.html pada folder bootcamp-statis
+Pada bagian ini merupakan tampilan halaman statik yang di buat berdasarkan acuan mockup dari figma menggunakan html, css, js serta framework Bootstrap 4 CDN.
+Berikut ini langkah dalam menjalankan file :
+1. Buka file index.html pada folder bootcamp-statis.
+
+Maka halaman akan tampil sesuai dengan gambar di bawah ini.
 Hasil Screenshot tampilan :
 
 Halaman Utama  tampilan statis :
