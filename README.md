@@ -42,12 +42,14 @@ Adapun software yang di butuhkan untuk menjalankan sistem :
 
 1. Server Xampp
 2. Browser (Opsional)
+3. DBMS MySQL
 
 Berikut ini langkah dalam menjalankan file :
 
 1. Buka folder bootcamp-dinamis
-2. Jalankan sistem menggunakan server xampp
-3. Selesai
+2. Import sql database kedalam MySql bernama bootcamp_arkademy yang berada pada folder database
+3. Jalankan sistem menggunakan server xampp
+4. Selesai
 
 Maka halaman akan tampil sesuai dengan gambar dari hasil Screenshot seperti di bawah ini :
 
