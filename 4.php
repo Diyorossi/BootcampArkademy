@@ -1,20 +1,16 @@
 <?php 
 
-// function findDuplicate(){
-// 	echo substr_count("Hello world. The world is nice","e");
-// }
+// $color = '#eee'; //true
+// $color = '#F3F3F3'; //true
+$color = '#ezff8d'; //false
 
-// findDuplicate();
 
-$str = "hari apa saja saya bisa!";
-$str2 = "cepat kerjakan!!!";
-$str3 = "adobe";
-
-foreach (count_chars($str, 1) as $strr => $value) {
-	// var_dump($value);
-	// if($value !== 1){
-	// 	echo "Tidak Ada Kata Yang Berulang";
-	// }else{
-	// }
-  	 echo chr($strr) . " occurred a number of $value times in the string." . "<br>";
+function KodeWarna($color){
+	if(!preg_match('/^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$/', $color)){
+		echo "Format Hex Code salah!";
+	}else{
+		echo "Format Hex Code benar!";
+	}
 }
+
+KodeWarna($color);
