@@ -1,6 +1,6 @@
 --> Soal 1, dan 2 Menggunakan PHP 
 
---> <b>SOAL 6.A Query Untuk Menampilkan sesuai soal adalah :</b>
+--> <b>SOAL 6.A</b>Query Untuk Menampilkan sesuai soal adalah :
 
 SELECT c.name as cashier, p.name as product, g.name as category, p.price as price FROM product p join cashier c on p.id_cashier=c.id_cashier join category g on p.id_category=g.id_category
 
