@@ -1,63 +1,20 @@
 <?php 		
 
-// $kalimat = "Hesti Liu";
-// $huruf = "e";
+$karakter = 'Javascript'; 
+$jml_karakter = 'a';
 
-// $result = substr_count($kalimat, $huruf);
-// echo ($kalimat);
-// echo "<br>";
-// if(!empty($result)){
-// echo "Jumlah huruf $huruf pada kalimat $kalimat adalah $result";
-// }else{
-// 	echo "Not Found";
-// }
-
-// $inputstring="abcd";
-//  $tmp = '';    $i = 0;
-
-//    while (isset($inputstring[$i])){
-//         $tmp .= $inputstring[$i];
-//         $i++;
-//     }
-
-// echo $i; //final string count
-// echo "<br>";
-// echo $tmp; // Read string
-
-// function mystrlen($str)
-// {
-// $count = 0;
-// for($i=0; $i<strlen($str); $i++)
-// {
-// if(@$str[$i] != "")
-// 	{$count++;
-// }else{	
-// break;
-// }
-// }
-// return $count;
-// }
-// $string = "Arkayalo";
-// echo mystrlen($string);
-
-
-
-$string = 'Arka'; 
-
-$sub_string = 'a';
-
+function CountChar($karakter, $jml_karakter){
 $count = 0;
-for($i=0;$i < strlen($string); $i++){
-
+for($i=0;$i < strlen($karakter); $i++){
     $flag = 0;
     $j=0;
-    if(strtolower($string[$i]) == $sub_string[$j])
+    if(strtolower($karakter[$i]) == $jml_karakter[$j])
     {
-        //echo "match";
+     //echo "match";
         $flag = 1;
         $k = $i;
-        for($j< strlen($sub_string); $j++;){//echo "[".$j . $k."] $count $flag";
-            if(strtolower($string[$k]) != $sub_string[$j]){
+        for($j< strlen($jml_karakter); $j++;){//echo "[".$j . $k."] $count $flag";
+            if(strtolower($karakter[$k]) != $jml_karakter[$j]){
                 $flag = 0;
                 break;
             }
@@ -69,5 +26,11 @@ for($i=0;$i < strlen($string); $i++){
         $flag = 0;
     }
 }
+if($count == 0){
+	$count = "Not Found";
+	return $count;
+}
+return $count;
+}
 
-echo $count;
+echo CountChar($karakter, $jml_karakter);
