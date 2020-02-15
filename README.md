@@ -59,6 +59,7 @@ Halaman ketika melakukan penambahan data dinamis :
 
 Halaman ketika berhasil melakukan penambahan data dinamis :
 ![image](https://user-images.githubusercontent.com/17777914/74581041-3ee84e80-4fdd-11ea-8065-fe7396857104.png)
+
 ![image](https://user-images.githubusercontent.com/17777914/74581050-56273c00-4fdd-11ea-9281-4c896349818b.png)
 
 Halaman ketika melakukan ubah data dinamis :
@@ -66,6 +67,7 @@ Halaman ketika melakukan ubah data dinamis :
 
 Halaman ketika berhasil melakukan perubahan data dinamis :
 ![image](https://user-images.githubusercontent.com/17777914/74581096-e49bbd80-4fdd-11ea-8798-205d9e01477a.png)
+
 ![image](https://user-images.githubusercontent.com/17777914/74581102-f8dfba80-4fdd-11ea-9df5-fb8d438b962e.png)
 
 Halaman ketika melakukan hapus data dinamis :
@@ -73,4 +75,5 @@ Halaman ketika melakukan hapus data dinamis :
 
 Halaman ketika berhasil melakukan hapus data dinamis :
 ![image](https://user-images.githubusercontent.com/17777914/74581117-2593d200-4fde-11ea-8c96-a5293b3c6fa0.png)
+
 ![image](https://user-images.githubusercontent.com/17777914/74581120-3a706580-4fde-11ea-9bcf-0ed8de1505f2.png)
