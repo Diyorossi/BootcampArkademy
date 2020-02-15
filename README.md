@@ -1,22 +1,6 @@
---> <b>SOAL 1</b>
+--> <b>SOAL 1</b>, <b>SOAL 2</b>, <b>SOAL 3</b>, <b>SOAL 4</b>, <b>SOAL 5</b> 
 
 Pada bagian ini menggunakan bahasa PHP dengan menjalankan file 1.php melalui browser
-
--- > <b>SOAL 2</b> 
-
-Pada bagian ini menggunakan bahasa PHP dengan menjalankan file 2.php melalui browser
-
--- > <b>SOAL 3</b> 
-
-Pada bagian ini menggunakan bahasa PHP dengan menjalankan file 3.php melalui browser
-
--- > <b>SOAL 4</b> 
-
-Pada bagian ini menggunakan bahasa PHP dengan menjalankan file 4.php melalui browser
-
--- > <b>SOAL 5</b> 
-
-Pada bagian ini menggunakan bahasa PHP dengan menjalankan file 5.php melalui browser
 
 --> <b>SOAL 6.A</b> Query Untuk Menampilkan sesuai soal adalah :
 
