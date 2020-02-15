@@ -1,6 +1,6 @@
 --> Soal 1, dan 2 Menggunakan PHP 
 
---> Soal 6a Query Untuk Menampilkan sesuai soal adalah :
+--> SOAL 6.A Query Untuk Menampilkan sesuai soal adalah :
 
 SELECT c.name as cashier, p.name as product, g.name as category, p.price as price FROM product p join cashier c on p.id_cashier=c.id_cashier join category g on p.id_category=g.id_category
 
@@ -8,14 +8,19 @@ Screenshot Hasil :
 
 ![image](https://user-images.githubusercontent.com/17777914/74580409-9800b400-4fd6-11ea-8afc-d1427150097d.png)
 
---> Soal 6b terdapat pada folder bootcamp-statis :
+--> SOAL 6.B terdapat pada folder bootcamp-statis :
 
 Pada bagian ini merupakan tampilan halaman statik yang di buat berdasarkan acuan mockup dari figma menggunakan html, css, js serta framework Bootstrap 4 CDN.
 
+Adapun software yang di butuhkan untuk menjalankan sistem :
+
+1. Server Xampp/Browser (Opsional).
+
 Berikut ini langkah dalam menjalankan file :
 1. Buka file index.html pada folder bootcamp-statis.
+2. Selesai
 
-Maka halaman akan tampil sesuai dengan gambar hasil Screenshot seperti di bawah ini :
+Maka halaman akan tampil sesuai dengan gambar dari hasil Screenshot seperti di bawah ini :
 
 Halaman Utama  tampilan statis :
 ![image](https://user-images.githubusercontent.com/17777914/74580700-a4d2d700-4fd9-11ea-94c1-96a0ff6fff91.png)
@@ -29,13 +34,22 @@ Modal Edit tampilan statis :
 Modal Hapus tampilan statis :
 ![image](https://user-images.githubusercontent.com/17777914/74580740-05faaa80-4fda-11ea-8eac-d8d2614aabb7.png)
 
---> Soal 6c terdapat pada folder bootcamp-dinamis disini saya menggunakan Framework CodeIgniter 3 dan Bootstrap 4 CDN.
+--> SOAL 6.C terdapat pada folder bootcamp-dinamis.
+
+Pada bagian ini merupakan tampilan halaman dinamis yang di buat berdasarkan acuan mockup dari figma yang sebelumnya telah di buat pada point 6.B (tampilan-statis) dengan menggunakan Framework CodeIgniter 3 dan Bootstrap 4 CDN.
+
+Adapun software yang di butuhkan untuk menjalankan sistem :
+
+1. Server Xampp
+2. Browser (Opsional)
 
 Berikut ini langkah dalam menjalankan file :
 
 1. Buka folder bootcamp-dinamis
-2. Jalankan sistem menggunakan xampp
-3. Maka akan tampil halaman utama (home) seperti gambar di bawah :
+2. Jalankan sistem menggunakan server xampp
+3. Selesai
+
+Maka halaman akan tampil sesuai dengan gambar dari hasil Screenshot seperti di bawah ini :
 
 ![image](https://user-images.githubusercontent.com/17777914/73129319-5900c380-4013-11ea-8a36-7dc03f49f52e.png)
 
