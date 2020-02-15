@@ -1,5 +1,5 @@
 <?php
-
+//Biodata
 	$nama = "Denlei Diyorossi";
 	$umur = 22;
 	$address = "Jl Mertojoyo Selatan Blok C 10 No 01";
