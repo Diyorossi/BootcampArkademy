@@ -9,6 +9,7 @@ Screenshot Hasil :
 ![image](https://user-images.githubusercontent.com/17777914/74580409-9800b400-4fd6-11ea-8afc-d1427150097d.png)
 
 --> Soal 6b terdapat pada folder bootcamp-statis :
+
 Pada bagian ini merupakan tampilan halaman statik yang di buat berdasarkan acuan mockup dari figma. Yang dibuat menggunakan html, css, js serta framework Bootstrap 4 CDN.
 Cara menjalankannya yaitu buka file index.html pada folder bootcamp-statis
 Hasil Screenshot tampilan :
