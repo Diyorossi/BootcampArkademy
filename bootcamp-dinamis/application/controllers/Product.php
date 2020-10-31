@@ -10,7 +10,6 @@ class Product extends CI_Controller {
 	}
 
 	public function tambahproduk(){
-		// var_dump("ello");
 		$idkasir = $this->input->post('cashier');
 		$kategori = $this->input->post('category');
 		$produk = $this->input->post('product');

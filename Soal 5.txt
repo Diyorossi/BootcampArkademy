@@ -1,0 +1,65 @@
+function findHighestProfit(arr) { 
+  
+  var keuntungan = 0;
+  var hari_beli = 0;
+  var hari_jual = 0;
+  
+  // this allows our loop to keep iterating the buying
+  // price until a cheap stock price is found
+
+  // ini memungkinkan loop kita untuk terus mengulangi pembelian
+  // harga sampai harga saham murah ditemukan
+  var change_buy_index = true;
+  
+  // loop through list of stock prices once
+
+  // loop melalui daftar harga saham satu kali
+  for (var i = 0; i < arr.length-1; i++) {
+    
+    // selling price is the next element in list
+
+    // harga jual adalah elemen berikutnya dalam daftar
+    hari_jual = arr[i+1]; 
+    
+    // if we have not found a suitable cheap buying price yet
+    // we set the buying price equal to the current element
+
+    // jika kita belum menemukan harga beli murah yang cocok
+     // kami menetapkan harga beli sama dengan elemen saat ini
+    if (change_buy_index) { hari_beli = arr[i]; }
+    
+    // if the selling price is less than the buying price
+    // we know we cannot make a profit so we continue to the 
+    // next element in the list which will be the new buying price
+
+    // jika harga jual lebih rendah dari harga beli
+     // kita tahu kita tidak bisa mendapat untung jadi kita lanjutkan ke
+     // elemen berikutnya dalam daftar yang akan menjadi harga beli baru
+    if (hari_jual < hari_beli) {
+      change_buy_index = true; 
+      continue;
+    }
+    
+    // if the selling price is greater than the buying price
+    // we check to see if these two indices give us a better 
+    // profit then what we currently have
+
+    // jika harga jual lebih besar dari harga beli
+     // kita periksa untuk melihat apakah kedua indeks ini memberi kita yang lebih baik
+     // untung lalu apa yang kita miliki saat ini
+    else { 
+      var temp_profit = hari_jual - hari_beli;
+      if (temp_profit > keuntungan) { keuntungan = temp_profit; }
+      change_buy_index = false;
+    }
+    
+  }
+  if(keuntungan===0){
+      keuntungan = "Tidak bisa mendapatkan profit pada hari-hari ini";
+//      console.log(keuntungan);
+  }
+    return keuntungan;
+}
+
+console.log(findHighestProfit([10, 2, 11, 20, 3, 5]));  //Output : 18
+// console.log(findHighestProfit([33, 29, 11, 3]));   //Output : Tidak bisa mendapatkan profit pada hari-hari ini

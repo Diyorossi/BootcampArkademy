@@ -3,7 +3,7 @@
   // $username = 'jok3r'; //false
 	$username = 'suparman'; //true
   // $password = 'Dap0#r'; //false
-  $password = 'T3pungB#3r4s!'; //true
+  $password = '3B#3r4s!'; //true
 
      function username($username){
      	if (!preg_match('/^[a-z]{5,9}$/', $username)){
